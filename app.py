@@ -22,7 +22,7 @@ model, encoders = load_assets()
 
 # --- 2. APP TITLE AND DESCRIPTION ---
 st.set_page_config(page_title="Customer Churn Predictor", layout="wide")
-st.title('Customer Churn Prediction 🔮')
+st.title('Customer Churn Prediction')
 st.markdown("""
 This app predicts whether a customer is likely to churn based on their account information. 
 Provide the customer's details in the sidebar to receive a prediction.
